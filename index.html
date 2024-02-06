@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body class="bg-dark">
+    <h1 class="title">CURRENCY CONVERTOR </h1>
+</body>
+<form action="#">
+    <select name="choice" id="choice">
+        <option value="1">MGA to currency </option>
+        <option value="2">currency to MGA </option>
+    </select>
+    <select name="currency" id="currency">
+        <option value="1">EUR</option>
+        <option value="2">USD</option>
+        <option value="3">YEN</option>
+    </select>
+    <input type="number" placeholder="Enter amount to convert" name="amount" id="amount">
+    <input type="submit" id="btn" value="convert">
+</form>
+<div class="result-bloc">
+    <h1 id="result"></h1>
+</div>
+
+<script src="index.js"></script>
+</html>
